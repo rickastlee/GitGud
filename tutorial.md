@@ -1,16 +1,26 @@
 # Useful git commands
 
-## git add .
+```
+git add .
+```
 _Track all untracked files_
 
-## git add <filename>
+```
+git add filename
+```
 _Track selected files_
 
-## git commit -m <name>
+```
+git commit -m "name"
+```
 _Commit changes, specifying the commit name in a single line_
 
-## git commit
+```
+git commit
+```
 _Commit changes, edit commit message in a text editor of your choice_
 
-## git status
+```
+git status
+```
 _Display the working tree status_
