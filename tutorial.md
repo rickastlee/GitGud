@@ -21,6 +21,16 @@ git commit
 _Commit changes, edit commit message in a text editor of your choice_
 
 ```
+git push
+```
+_Update the remote branch with local commits_
+
+```
+git revert commit_id
+```
+_Revert a specified commit_
+
+```
 git status
 ```
 _Display the working tree status_
