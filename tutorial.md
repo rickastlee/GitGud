@@ -46,6 +46,11 @@ git push
 _Update the remote branch with local commits_
 
 ```
+git rebase -i first_commit_hash
+```
+_Lets you perform various operations on commits, including reordering, dropping and squashing_
+
+```
 git revert commit_id
 ```
 _Revert a specified commit_
