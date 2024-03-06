@@ -79,3 +79,13 @@ _Removes the top / a specified stash_
 git status
 ```
 _Display the working tree status_
+
+```
+git remote add upstream
+```
+_Add a new remote_
+
+```
+git fetch upstream
+```
+_Fetches all branches from the specified remote_
