@@ -11,6 +11,16 @@ git add filename
 _Track selected files_
 
 ```
+git checkout branch_name
+```
+_Switch to another branch_
+
+```
+git checkout -b branch_name
+```
+_Create a new branch_
+
+```
 git commit -m "name"
 ```
 _Commit changes, specifying the commit name in a single line_
