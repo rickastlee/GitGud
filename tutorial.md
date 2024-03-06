@@ -56,6 +56,26 @@ git revert commit_id
 _Revert a specified commit_
 
 ```
+git stash
+```
+_Stashes changes, thus making the working directory clean. Useful when switching to another branch_
+
+```
+git stash list
+```
+_Provides a summary of the stashed changes_
+
+```
+git stash show
+```
+_Displays the details of a stashed commit_
+
+```
+git stash drop
+```
+_Removes the top / a specified stash_
+
+```
 git status
 ```
 _Display the working tree status_
