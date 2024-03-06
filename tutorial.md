@@ -21,6 +21,16 @@ git commit
 _Commit changes, edit commit message in a text editor of your choice_
 
 ```
+git log
+```
+_List the full message of each commit with additional information, such as hash, author or date_
+
+```
+git log --oneline
+```
+_List the first line of each commit with the corresponding ID_
+
+```
 git push
 ```
 _Update the remote branch with local commits_
