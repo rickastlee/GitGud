@@ -89,3 +89,8 @@ _Add a new remote_
 git fetch upstream
 ```
 _Fetches all branches from the specified remote_
+
+```
+git rebase remote/branch
+```
+_Rebase the working tree using the specified branch of a remote_
