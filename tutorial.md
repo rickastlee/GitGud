@@ -51,6 +51,11 @@ git rebase -i first_commit_hash
 _Lets you perform various operations on commits, including reordering, dropping and squashing_
 
 ```
+git reset --hard remote/branch
+```
+_Sync the current branch with a remote branch. Note: this won't keep any of your commits so make sure to back them up beforehand_
+
+```
 git revert commit_id
 ```
 _Revert a specified commit_
