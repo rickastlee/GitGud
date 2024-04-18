@@ -1,9 +1,11 @@
 public class Main {
   public static void main(String[] args) {
-    int mask = 3;
+    int maxLen = 4;
     int[] tests = { 0, 1, 2, 3, 4 };
 
-    test(3, tests);
+    for (int i = 0; i < maxLen - 1; i++) {
+      test(i, tests);
+    }
   }
 
   private static void test(int mask, int[] testArray) {
