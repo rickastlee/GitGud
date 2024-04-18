@@ -1,13 +1,16 @@
-public class Bitwise {
+public class Main {
   public static void main(String[] args) {
-  	int mask = 3; //0011
-    int num1 = 4;  //1000
+    int mask = 3;
+    int[] tests = { 0, 1, 2, 3, 4 };
 
-    System.out.println(String.format("%d & %d = %b",
-    		mask, val, func(mask, val)));
+    test(3, tests);
   }
-  
-  private static boolean func(int mask, int val) {
-  	return (mask & val) == 1;
+
+  private static void test(int mask, int[] testArray) {
+    for (int i = 0; i < testArray.length; i++) {
+      int val = testArray[i];
+      System.out.println(String.format("%d & %d = %b",
+          mask, val, (mask & val) == 1));
+    }
   }
 }
